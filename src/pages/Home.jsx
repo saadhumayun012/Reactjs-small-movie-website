@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from 'react';
 import { useDebounce } from 'use-debounce';
-import { Header, Search, MovieCard } from './index';
+import { Header, Search, MovieCard } from '../components/index';
 import config from '../config/config';
-import MovieContext from '../context/context';
+import MovieContext from '../context';
 
 function Home() {
   const [searchMovie, setSearchMovie] = useState("")

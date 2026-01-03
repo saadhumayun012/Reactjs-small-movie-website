@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import MovieContext from "./context";
+import MovieContext from ".";
 
 export const MovieContextProvider = ({children}) => {
     const [movies, setMovies] = useState([])
